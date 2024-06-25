@@ -47,7 +47,7 @@ ULRASONIC-ARDUINO simplifies interfacing with ultrasonic sensors. It provides fu
 | `readData_cm`    | Returns the distance measured by the sensor in centimeters.             | None                                                           |
 | `readData_inch`  | Returns the distance measured by the sensor in inches.                  | None                                                           |
 
-### `ultrasonic(trigPin, echoPin, vccPin = 0, delayMillis = 5, timeout = -1)`
+## `ultrasonic(trigPin, echoPin, vccPin = 0, delayMillis = 5, timeout = -1)`
 - **Purpose**: Initializes an ultrasonic sensor with specified pins and optional parameters.
 - **Arguments**:
   - `trigPin`: Pin connected to the trigger of the ultrasonic sensor.
@@ -56,18 +56,18 @@ ULRASONIC-ARDUINO simplifies interfacing with ultrasonic sensors. It provides fu
   - `delayMillis` (optional): Delay in milliseconds for sensor stabilization after triggering. Defaults to 5ms if not provided.
   - `timeout` (optional): Timeout duration in microseconds for pulseIn function. Defaults to -1 (infinite timeout) if not provided.
 
-### `readData()`
+## `readData()`
 - **Purpose**: Measures the distance from the ultrasonic sensor and returns the value in meters.
 - **Return Value**: Distance measured in meters.
 
-### `readData_m()`
+## `readData_m()`
 - **Purpose**: Same as `readData()`, returning the distance in meters.
 - **Return Value**: Distance measured in meters.
 
-### `readData_cm()`
+## `readData_cm()`
 - **Purpose**: Measures the distance from the ultrasonic sensor and returns the value in centimeters.
 - **Return Value**: Distance measured in centimeters.
 
-### `readData_inch()`
+## `readData_inch()`
 - **Purpose**: Measures the distance from the ultrasonic sensor and returns the value in inches.
 - **Return Value**: Distance measured in inches.
