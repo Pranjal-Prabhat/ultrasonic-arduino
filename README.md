@@ -47,7 +47,7 @@ ULRASONIC-ARDUINO simplifies interfacing with ultrasonic sensors. It provides fu
 | `readData_cm`    | Returns the distance measured by the sensor in centimeters.             | None                                                           |
 | `readData_inch`  | Returns the distance measured by the sensor in inches.                  | None                                                           |
 
-## `ultrasonic(trigPin, echoPin, vccPin = 0, delayMillis = 5, timeout = -1)`
+## **ultrasonic(trigPin, echoPin, vccPin = 0, delayMillis = 5, timeout = -1)**
 - **Purpose**: Initializes an ultrasonic sensor with specified pins and optional parameters.
 - **Arguments**:
   - `trigPin`: Pin connected to the trigger of the ultrasonic sensor.
