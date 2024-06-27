@@ -1,4 +1,4 @@
-# EASYLIB-ARDUINO
+# ULTRASONIC-ARDUINO
 
 ---
 Author: Pranjal Prabhat 👨‍🔬
