@@ -1,0 +1,19 @@
+name: Arduino Lint Check
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  arduino-lint:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Arduino CLI
+        uses: arduino/arduino-cli-setup@v1
+      - name: Arduino Lint
+        uses: arduino/arduino-lint-action@v1
