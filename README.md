@@ -1,18 +1,13 @@
-# ULTRASONIC-ARDUINO
 
----
-Author: Anonymus 👨‍🔬
----
-
-## What's Diffrent 👀
+## What's Diffrent 
 - Measurment in cm , m , inches.
 - Set timeout for sensor.
 - Acces to use GPIO pin as vcc directly by functions of this library.
 
-## Overview 🖐
+## Overview 
 ULRASONIC-ARDUINO simplifies interfacing with ultrasonic sensors. It provides functions for accurate distance measurement in meters, centimeters, and inches.
 
-## How to Use 👀
+## How to Use 
 1. **Download the Library:**
    - Copy the library ZIP file from this repository or download it.
 
